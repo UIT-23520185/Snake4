@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Code\Snake\Snake4\sn\sn\mylib.h(24,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  (compiling source file 'Source.cpp')
+  
+C:\Code\Snake\Snake4\sn\sn\mylib.h(24,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  (compiling source file 'Source.cpp')
+  
+C:\Code\Snake\Snake4\sn\sn\Source.cpp(34,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  sn.vcxproj -> C:\Code\Snake\Snake4\sn\x64\Debug\sn.exe

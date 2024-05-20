@@ -1,0 +1,2 @@
+﻿  Source.cpp
+E:\Downloads\Snake4\Project1\Project1\Source.cpp(2,10): fatal  error C1083: Cannot open include file: 'mylib.h': No such file or directory

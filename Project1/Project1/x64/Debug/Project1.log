@@ -1,4 +1,0 @@
-﻿  snake.cpp
-E:\sự nghiệp\Đại học\Năm 1- kì 2\Kĩ năng nghề nghiệp\Snake4\Project1\Project1\mylib.h(24,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-E:\sự nghiệp\Đại học\Năm 1- kì 2\Kĩ năng nghề nghiệp\Snake4\Project1\Project1\mylib.h(24,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  Project1.vcxproj -> E:\sự nghiệp\Đại học\Năm 1- kì 2\Kĩ năng nghề nghiệp\Snake4\Project1\x64\Debug\Project1.exe

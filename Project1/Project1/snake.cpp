@@ -2,6 +2,7 @@
 #include "mylib.h"
 #define MAX 100
 using namespace std;
+<<<<<<< Updated upstream
 int sl = 7;
 void ve_tuong_tren();// 1 
 void ve_tuong_duoi();//2 
@@ -13,6 +14,11 @@ void xoa_du_lieu_cu(int toadox[], int toadoy[]);
 void ve_ran(int toadox[], int toadoy[]);
 int main() {
 	int x = 200; 
+=======
+int sl = 8;
+int main() {
+	int x = 8;
+>>>>>>> Stashed changes
 	return 0;
 }
 void ve_tuong_tren()// 1 

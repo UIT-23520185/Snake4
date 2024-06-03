@@ -12,10 +12,7 @@ void khoi_tao_ran(int toadox[], int toadoy[]); //6
 void xoa_du_lieu_cu(int toadox[], int toadoy[]);
 void ve_ran(int toadox[], int toadoy[]);
 int main() {
-	int x = 7; 
-	int y = 3; 
-	int x = 9; 
-	int y = 10 ; 
+	int x = 100; 
 	return 0;
 }
 void ve_tuong_tren()// 1 

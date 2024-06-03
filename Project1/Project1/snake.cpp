@@ -13,7 +13,7 @@ void xoa_du_lieu_cu(int toadox[], int toadoy[]);
 void ve_ran(int toadox[], int toadoy[]);
 int main() {
 	int x = 0; 
-	int y = 1000;
+	int y = 2000;
 
 	return 0;
 }

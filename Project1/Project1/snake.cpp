@@ -13,6 +13,8 @@ void xoa_du_lieu_cu(int toadox[], int toadoy[]);
 void ve_ran(int toadox[], int toadoy[]);
 int main() {
 	int x = 0; 
+	int y = 1000;
+
 	return 0;
 }
 void ve_tuong_tren()// 1 

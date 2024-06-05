@@ -1,8 +1,5 @@
 ﻿  snake.cpp
-C:\Code\Snake\Snake4\main\main\mylib.h(24,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  (compiling source file 'snake.cpp')
-  
-C:\Code\Snake\Snake4\main\main\mylib.h(24,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  (compiling source file 'snake.cpp')
-  
-  main.vcxproj -> C:\Code\Snake\Snake4\main\x64\Debug\main.exe
+E:\sự nghiệp\Đại học\Snake4\main\main\mylib.h(24,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+E:\sự nghiệp\Đại học\Snake4\main\main\mylib.h(24,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+E:\sự nghiệp\Đại học\Snake4\main\main\snake.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.vcxproj -> E:\sự nghiệp\Đại học\Snake4\main\x64\Debug\main.exe

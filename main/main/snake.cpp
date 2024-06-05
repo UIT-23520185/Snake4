@@ -46,41 +46,42 @@ int main()
 					check = 1;
 				}
 				else if (kitu == 80 && check != 1)
+				{ 
 					check = 0;
-			}
-			else if (kitu == 77 && check != 3)
-			{
-				check = 2;
-			}
-			else if (kitu == 75 && check != 2)
-			{
-				check = 3;
+			     }
+				else if (kitu == 77 && check != 3)
+				{
+					check = 2;
+				}
+				else if (kitu == 75 && check != 2)
+				{
+					check = 3;
+				}
 			}
 		}
+		if (check == 0)
+		{
+			y++;
+		}
+		else if (check == 1)
+		{
+			y--;
+		}
+		else if (check == 2)
+		{
+			x++;
+		}
+		else if (check == 3)
+		{
+			x--;
+		}
+		//conflict
+			xu_ly_ran(toadox, toadoy, x, y, xqua, yqua)
+			gameover = kt_ran(toadox, toadoy);
+		Sleep(150);
 	}
-	if (check == 0)
-	{
-		y++;
-	}
-	else if (check == 1)
-	{
-		y--;
-	}
-	else if (check == 2)
-	{
-		x++;
-	}
-	else if (check == 3)
-	{
-		x--;
-	}
-	//conflict
-	xu_ly_ran(toadox, toadoy, x, y, xqua, yqua)
-		gameover = kt_ran(toadox, toadoy);
-	Sleep(150);
-}
-_getch();
-return 0;
+	_getch();
+	return 0;
 }
 void ve_tuong_tren()
 {

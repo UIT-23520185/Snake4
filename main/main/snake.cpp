@@ -76,7 +76,7 @@ int main()
 			x--;
 		}
 		//conflict
-			xu_ly_ran(toadox, toadoy, x, y, xqua, yqua)
+		xu_ly_ran(toadox, toadoy, x, y, xqua, yqua);
 			gameover = kt_ran(toadox, toadoy);
 		Sleep(150);
 	}
@@ -166,10 +166,9 @@ void xoa_du_lieu_cu(int toadox[], int toadoy[])
 	}
 }
 //conflict
-void xu_ly_ran(int toadox[], int toadoy[], int& xqua, int& yqua)
+void xu_ly_ran(int toadox[], int toadoy[], int x , int y , int& xqua, int& yqua)
 {
-	int x;
-	int y,
+
 		them(toadox, x);
 	them(toadoy, y);
 
@@ -197,9 +196,9 @@ void them(int a[], int x)
 	sl++;
 }
 //conflict
-void xoa(int a[])
+void xoa(int a[], int vt)
 {
-	int vt
+	
 		for (int i = vt; i < sl; i++)
 		{
 			a[i] = a[i + 1];
@@ -212,6 +211,7 @@ bool kt_ran_cham_tuong(int x0, int y0)
 	if (y0 == 1 && (x0 >= 10 && x0 <= 90))
 	{
 		return true;
+	}
 	else if (y0 == 20 && (x0 >= 10 && x0 <= 90))
 	{
 		return true;
